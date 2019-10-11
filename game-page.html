@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <link rel="stylesheet" href="styles.css"
+    <meta charset="UTF-8">
+    <title>Game</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <script src='java.js'></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <div>
+        <h1 class="name">Rupert Tudehope</h1>
+        <h1 class="id">300402668</h1>
+        <div class="overline">
+        </div>
+      </div>
+    </header>
+
+    <div class="name-of-page">
+      <h1>Game</h1>
+    </div>
+
+    <div class="home-link-from-game">
+      <a href="index.html">Return home</a>
+    </div>
+
+
+    <div class = "instruct">
+      <h3>Guess a number between 1 & 100 and see how quickly you can pick it</h3>
+    </div>
+
+
+    <div class = "game-content">
+      <div class = "set-reset">
+        <button onclick='setGame()'>Set/Reset</button>
+      </div>
+
+      <div class = "guess">
+        <label>Guess: <input type='text' placeholder="type here" id='number'/></label>
+      </div>
+
+      <div class = "guess-test">
+        <button onclick='recordClicks()'>Test</button>
+      </div>
+     </div>
+
+
+     <div class = "outcome">
+       <div id = "outcome-amount">
+         <h4>Total Guesses: 0</h4>
+       </div>
+
+       <div id = "outcome-closeness">
+         <h4>Closeness:</h4>
+       </div>
+     </div>
+
+  </body>
+</html>

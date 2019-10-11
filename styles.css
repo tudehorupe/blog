@@ -1,0 +1,235 @@
+header{
+  font-size: 8px;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.overline{
+  height: 5px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+}
+
+.name{
+  float: left;
+  margin-left: 10%;
+}
+
+.id{
+  float: right;
+  margin-right: 10%;
+}
+
+.page-links{
+  display: flex;
+  justify-content: space-between;
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.reflections-link, .game-link{
+  font-family: 'Open Sans', sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50%;
+  background-color: black;
+  text-align: center;
+  padding: 5%;
+}
+
+a{
+  color: white;
+}
+
+.home-font{
+  font-size: 150px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -100px;
+  margin-bottom: -100px;
+}
+
+.name-of-page{
+  text-align: center;
+  font-size: 25px;
+  margin-top: 100px;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.main-header{
+  margin: auto;
+  width: 100%;
+  transform: translateZ(0);
+  padding: 0 5rem;
+  letter-spacing: -0.025px;
+  text-align: center;
+  position: absolute;
+  padding: 5px 10px;
+}
+
+.home-link-from-game a, .home-link-from-reflections a{
+  color: white;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  margin: 0px 15px;
+  background-color: black;
+  padding: 5px 10px;
+}
+
+.home-link-from-reflections{
+  position: fixed;
+  margin-top: -75px;
+}
+
+h2{
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+section{
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding-bottom: 5px;
+  box-shadow: 1px 1px 5px black;
+}
+
+.content-box{
+  width: 98%;
+  margin-left: auto;
+  margin-right: auto;
+	overflow: hidden;
+}
+
+.content-box img{
+	width: 48%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-content{
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 30px;
+}
+
+.title-date-box{
+  padding-top: -10px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.title-box{
+  float: left;
+}
+
+.date-box{
+  float: right;
+}
+
+.underline{
+  height: 2px;
+  width: 100%;
+  background-color: black;
+  margin-top: 50px;
+}
+
+.main-content-Tablet-27719 img{
+  width: 30%;
+  margin: 1.5%;
+}
+
+.main-content-Mobile-27719 img{
+  width: 15%;
+  margin-left: 1%;
+  margin-right: auto;
+}
+
+.main-content-centered{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.set-reset, .guess, .guess-test{
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3%;
+  text-align: center;
+}
+
+.set-reset button{
+  text-align: center;
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 0.5% 8%;
+}
+
+.guess{
+  display: flex;
+  flex-direction: column;
+  max-width: 15%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.guess-instruct{
+  text-align: center;
+}
+
+.instruct{
+  max-width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.guess-test button{
+  text-align: center;
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 1% 5%;
+}
+
+label input{
+  background: #f1f1f1;
+  padding: 10px;
+  font-size: 17px;
+  text-align: center;
+  border: 1px solid grey;
+  margin-top: 2%;
+}
+
+.outcome{
+  max-width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.outcome-amount{
+  max-width: 30%;
+  height: 15vh;
+  background-color: red;
+  flex: 1;
+}
+
+.outcome-closeness{
+  background-color: orange;
+  flex: 1;
+}
